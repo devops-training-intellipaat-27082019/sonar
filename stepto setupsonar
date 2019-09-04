@@ -12,9 +12,12 @@
      wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-5.6.7.zip
   2. extract the sonarqube
  
-       unzip sonarqube-5.6.7.zip
   
-  3.   # cd sonarqube/bin
+  3. sudo apt install unzip
+  4. unzip sonarqube-5.6.7.zip
+  5. ln -s sonarqube-5.6.7 sonar
+  6. ls-t
+  # cd sonarqube/bin
         #sonar.sh start
 
   4. http://Hostname:9000/
